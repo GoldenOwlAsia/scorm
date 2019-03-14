@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = 'scorm'
-  s.version     = '1.0.2'
+  s.version     = '1.0.3'
   s.summary     = 'Ruby library for reading, extracting and generating SCORM files.'
   s.description = 'SCORM is a Ruby library for reading and extracting Shareable Content Object Reference Model (SCORM) files. SCORM is a standardized package format used mainly by e-learning software to help with the exchange of course material between systems in an interoperable way. This gem supports SCORM 1.2 and SCORM 2004.'
 
-  s.author      = 'Niklas Holmgren'
-  s.email       = 'niklas.holmgren@mindset.se'
-  s.homepage    = 'http://github.com/mindset/scorm/'
+  s.author      = 'Jonathan Nguyen'
+  s.email       = 'nganhquoc95@gmail.com  '
+  s.homepage    = 'http://github.com/GoldenOwlAsia/scorm/'
 
   s.files         = Dir['README', 'LICENSE', 'bin/**/*', 'examples/**/*', 'skeleton/**/*', 'lib/**/{*,.[a-z]*}']
   s.require_path  = 'lib'
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.executables        = ['scorm']
   s.default_executable = 'scorm'
 
-  s.add_dependency('rubyzip',  '~> 0.9.4')
+  s.add_dependency('rubyzip',  '>= 1.0.0')
 end
